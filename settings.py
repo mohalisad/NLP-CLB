@@ -6,8 +6,8 @@ import datetime
 logger = logging.getLogger(__name__)
 
 import GPUtil
-from pytorch_transformers import OpenAIGPTLMHeadModel, OpenAIGPTTokenizer, OpenAIGPTConfig
-from pytorch_transformers import GPT2LMHeadModel, GPT2Tokenizer, GPT2Config, CONFIG_NAME 
+from transformers import OpenAIGPTLMHeadModel, OpenAIGPTTokenizer, OpenAIGPTConfig
+from transformers import GPT2LMHeadModel, GPT2Tokenizer, GPT2Config, CONFIG_NAME
 import torch
 
 
